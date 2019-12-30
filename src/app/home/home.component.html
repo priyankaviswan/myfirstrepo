@@ -1,0 +1,5 @@
+<div class="homewrapper">
+    <div>
+        <app-devicedetails *ngFor = "let deviceData of deviceArray" [DeviceData] = "deviceData" (clickDeviceData)="onDeviceDataClicked($event)" ></app-devicedetails>
+    </div>
+</div>
